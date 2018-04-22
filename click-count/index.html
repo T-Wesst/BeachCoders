@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Local Storage and Cats</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+</head>
+
+<body>
+    <nav class="black"></nav>
+    <div class='container'>
+        <h1>Seriously, click me!</h1>
+        <p id="greetings"></p>
+        <h2 id="clicks">Not yet clicked</h2>
+        <div class="row">
+            <form id="myform" class="col s12">
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input placeholder="First Name" id="first_name" type="text" class="validate">
+                        <label for="first_name">First Name</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <input id="last_name" type="text" class="validate">
+                        <label for="last_name">Last Name</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="email" type="email" class="validate">
+                        <label for="email">Email</label>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div>
+            <img id="cat" src="kitten.jpg">
+        </div>
+    </div>
+    <div>
+        <footer></footer>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>

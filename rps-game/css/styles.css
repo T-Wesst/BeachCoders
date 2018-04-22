@@ -1,0 +1,42 @@
+body {
+  background-color: #ff9823;
+}
+form {
+  color: #fff;
+  background-color: #000;
+  margin-top: 200px;
+  text-align: center;
+  border: 4px #fff solid;
+}
+
+h1 , h2 {
+  width: 100%;
+  text-transform: uppercase;
+}
+
+span {
+  color: #ff9823;
+}
+
+p {
+  text-transform: uppercase;
+}
+
+button {
+  border: 0px;
+  background-color: rgba(0,0,0,0.1);
+}
+
+svg:not(:root).svg-inline--fa {
+  color: #ff9823;
+  margin: auto 5px;
+}
+
+svg:not(:root).svg-inline--fa:hover {
+  color: #fff;
+}
+
+#play, #reset {
+  width: 20%;
+  margin: 20px;
+}

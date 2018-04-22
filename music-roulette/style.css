@@ -1,0 +1,19 @@
+.collapsible-header img {
+margin-right: 20px;    
+}
+h1,h3 {
+    text-align: center;
+}
+.parallax-container {
+background-size: cover;
+    background-position: center center;
+}
+.parallax-container img{
+width: 100%;
+}
+
+@media (max-width: 780px){
+    .parallax-container {
+height: 200px;
+}
+}

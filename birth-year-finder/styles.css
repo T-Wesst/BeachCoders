@@ -1,0 +1,22 @@
+body {
+  background-color: grey;
+  color: #fff;
+}
+
+form {
+  margin-top: 10%;
+text-align: center;
+}
+
+#number {
+  width: 30%;
+}
+
+#button {
+  background-color: #ee6e73;
+}
+
+#year {
+  margin-top: 5%;
+  font-size: 24px;
+}
